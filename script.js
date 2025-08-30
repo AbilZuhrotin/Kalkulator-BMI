@@ -16,5 +16,5 @@ function hitungBmi(){
         katagori = "Obesity";
     }
     // console.log(bmi + katagori)
-    document.getElementById("hasil").innerHTML = "BMI Kamu sebesar " + bmi + " kamu termasuk kategori " + katagori ;
+    document.getElementById("hasil").innerHTML = "BMI Kamu sebesar " + bmi.toFixed(1) + " kamu termasuk kategori " + katagori;
 }
